@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f8ff; }
+        header { background-color: #007bff; color: white; padding: 15px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #0056b3; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; text-align: center; }
+        footer { background-color: #007bff; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .container { max-width: 1200px; margin: auto; }
+        img { max-width: 100%; height: auto; border-radius: 10px; }
+        .fade-in { opacity: 0; animation: fadeIn 2s forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Multipurpose Website</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#shop">Shop</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="fade-in">
+            <h2>Home</h2>
+            <p>Welcome to our all-in-one website.</p>
+            <img src="https://via.placeholder.com/1200x600" alt="Homepage Image">
+        </section>
+        <section id="about" class="fade-in">
+            <h2>About Us</h2>
+            <p>Learn more about us and our mission.</p>
+            <img src="https://via.placeholder.com/800x400" alt="About Us Image">
+        </section>
+        <section id="services" class="fade-in">
+            <h2>Services</h2>
+            <p>We offer various services to meet your needs.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Services Image">
+        </section>
+        <section id="portfolio" class="fade-in">
+            <h2>Portfolio</h2>
+            <p>Check out our latest projects.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Portfolio Image">
+        </section>
+        <section id="blog" class="fade-in">
+            <h2>Blog</h2>
+            <p>Read our latest articles.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Blog Image">
+        </section>
+        <section id="contact" class="fade-in">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us through our contact form.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Contact Image">
+        </section>
+        <section id="shop" class="fade-in">
+            <h2>Shop</h2>
+            <p>Browse and purchase our products.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Shop Image">
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Multipurpose Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
